@@ -11,6 +11,7 @@ This project demonstrates how to perform real-time text recognition from a webca
 - imutils module
 
 To install OpenCV, you can use pip:
+
 `pip install opencv-python-headless`
 
 
@@ -37,7 +38,7 @@ When the application starts, it will capture images from the webcam and display 
 
 ## Configuration
 
-You can configure the language of the recognized text by modifying the `lang` parameter in the `image_to_string` function in the `text_recognition.py` file. By default, it is set to `'eng'` for English.
+You can configure the language of the recognized text by modifying the `lang` parameter in the `image_to_string` function in the `text_recognition.py` file. By default, it is set to `'ces'` for English.
 
 You can also configure the font used for displaying the text by modifying the `font_path` variable in the `text_recognition.py` file. By default, it is set to `'arial.ttf'`.
 
