@@ -12,18 +12,30 @@ This project demonstrates how to perform real-time text recognition from a webca
 
 To install OpenCV, you can use pip:
 
-`pip install opencv-python-headless`
+`pip3 install opencv-python-headless`
 
 
 Tesseract OCR can be installed from the official website:
 
 - [Tesseract OCR Installation](https://tesseract-ocr.github.io/tessdoc/Installation.html)
 
+On macOS:
+
+`brew install tesseract`
+
+[Download language model](https://github.com/tesseract-ocr/tessdata_best/raw/main/ces.traineddata)
+
+`export TESSDATA_PREFIX=path-to-language-model`
+
+Change the path-to-language-model with real folder.
+
+
+
 You can install the pytesseract and imutils modules using pip:
 
 ``
-pip install pytesseract
-pip install imutils
+pip3 install pytesseract
+pip3 install imutils
 ``
 
 
@@ -31,7 +43,7 @@ pip install imutils
 
 To run the application, run the following command:
 
-`python main.py`
+`python3 main.py`
 
 
 When the application starts, it will capture images from the webcam and display the recognized text on the screen.
